@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: lato;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+.active {
+    color: red;
+    text-align: center;
+}
+
+a:hover {
+    color: #E71800;
+}
+
+.my-button {
+    background-color: #E71800;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-button:hover {
+    background-color: #894BF3;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+    background-image: url('../images/textpics.jpg');
+    background-size: cover no-repeat;
+    background-position: center;
+    height: 400px;
+    color: rgb(236, 232, 232);
+}
+
+/* h1 {
+    font-size: 48px;
+    font-weight: 700;
+} */
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about {
+    text-align: center;
+
+}
+
+/* h2 {
+    font-size: 32px;
+} */
+
+p {
+    font-size: 16px;
+}
+
+.under {
+    border-radius: 8px;
+    background: #E71800;
+    width: 180px;
+    height: 6px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.title{
+    color: #E71800;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 60px;
+}
+.colomn{
+    padding: 20px;
+}
+.black{
+    color: black;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.title-logistics, .type-logistics{
+    text-align: center;
+}
+
+.logistics-container{
+    background-color: red;
+    display: flex;
+    padding: 10px 50px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.deliver-package{
+    background-color: orange;
+    height: 100px;
+    margin-bottom: 40px;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dp1{
+    /* background-color: yellow; */
+}
+
+.dp2{
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.transportation {
+    background-color: blue;
+    height: 50vh;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+    /* width: 500px; */
+}
+
+.trans-left {
+    background-color: yellow;
+    flex: 1;
+}
+
+.trans-right {
+    background-color: green;
+    flex: 1;
+}
+
+.cover-all {
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    background-color: purple;
+    margin-top: 60px;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+.cover1 {
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover2 {
+    flex: 1;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cover3 {
+    flex: 1;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cover-img{
+    background-color: white;
+    flex: 7;
+}
+
+.cover-text{
+    background-color: teal;
+    flex: 3;
+}
